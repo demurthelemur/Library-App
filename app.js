@@ -31,6 +31,9 @@ function saveBook() {
     pageNumberValue,
     readValue
   );
+  bookNameField.value = " ";
+  authorField.value = " ";
+  pageNumberField.value = " ";
   return newBook;
 }
 function createBookElement(book) {
